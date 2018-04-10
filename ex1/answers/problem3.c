@@ -18,8 +18,8 @@ collatz_stopping_time(long int n)
   return time;
 }
 
-// Test the n for 0 < n < 1000000; if this function ever completes, the
-// conjecture is true.
+// Test the Collatz conjecture for 0 < n < 1000000; if this function ever 
+// completes, the conjecture is true.
 int
 main (void)
 {

@@ -1,6 +1,7 @@
 #include <math.h>
 #include <stdio.h>
 
+// Find the sum of 1/1 + 1/4 + 1/9 + 1/16 + ... + 1/n^2
 double
 basel_sum (int n)
 {
@@ -12,7 +13,7 @@ basel_sum (int n)
   return result;
 }
 
-
+// Calculate a rough estimate of pi
 int
 main (void)
 {
